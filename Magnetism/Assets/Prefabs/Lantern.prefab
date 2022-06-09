@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1077035504094089362
+--- !u!1 &2821423472826968943
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1752443589915790576}
-  - component: {fileID: 2019934877524116610}
+  - component: {fileID: 5481498637011914916}
+  - component: {fileID: 5616742751605399684}
   m_Layer: 0
   m_Name: Latern2DLight
   m_TagString: Untagged
@@ -17,28 +17,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1752443589915790576
+--- !u!4 &5481498637011914916
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077035504094089362}
-  m_LocalRotation: {x: 0, y: 0, z: 0.00832635, w: 0.99996537}
-  m_LocalPosition: {x: 0, y: -0.19999981, z: 1.1889069}
+  m_GameObject: {fileID: 2821423472826968943}
+  m_LocalRotation: {x: -0, y: -0, z: 0.00832635, w: 0.99996537}
+  m_LocalPosition: {x: 0, y: -0.19999981, z: 1.188907}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 498347776771422441}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2019934877524116610
+--- !u!114 &5616742751605399684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1077035504094089362}
+  m_GameObject: {fileID: 2821423472826968943}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
@@ -139,8 +139,8 @@ Transform:
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1752443589915790576}
-  - {fileID: 6833504411467655170}
+  - {fileID: 5481498637011914916}
+  - {fileID: 6527116394255701649}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -196,7 +196,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &4289915634931969223
+--- !u!1 &5003701479015512262
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -204,8 +204,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6833504411467655170}
-  - component: {fileID: 8489718627189777909}
+  - component: {fileID: 6527116394255701649}
+  - component: {fileID: 554724358793271333}
   m_Layer: 0
   m_Name: Latern2DOuterLight
   m_TagString: Untagged
@@ -213,28 +213,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6833504411467655170
+--- !u!4 &6527116394255701649
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4289915634931969223}
+  m_GameObject: {fileID: 5003701479015512262}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 2.7999997, z: 1.1889069}
+  m_LocalPosition: {x: 0, y: 2.7999997, z: 1.188907}
   m_LocalScale: {x: 1, y: 0.5025, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 498347776771422441}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
---- !u!114 &8489718627189777909
+--- !u!114 &554724358793271333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4289915634931969223}
+  m_GameObject: {fileID: 5003701479015512262}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
@@ -246,19 +246,19 @@ MonoBehaviour:
   m_FalloffIntensity: 0.5
   m_Color: {r: 0.9622642, g: 0.8209018, b: 0.48567107, a: 1}
   m_Intensity: 1
-  m_LightVolumeIntensity: 1
-  m_LightVolumeIntensityEnabled: 0
+  m_LightVolumeIntensity: 0.4
+  m_LightVolumeIntensityEnabled: 1
   m_ApplyToSortingLayers: 2bfffaea07e1a161
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 3
-  m_NormalMapQuality: 2
+  m_NormalMapQuality: 1
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensityEnabled: 1
   m_ShadowVolumeIntensity: 0.75
   m_Vertices:
   - position: {x: 0.9985302, y: 0.9985302, z: 0}
