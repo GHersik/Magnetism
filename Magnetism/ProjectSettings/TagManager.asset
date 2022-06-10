@@ -45,6 +45,12 @@ TagManager:
   - name: Background
     uniqueID: 3942317867
     locked: 0
+  - name: TowerRooftop
+    uniqueID: 1253952181
+    locked: 0
   - name: Interactables
     uniqueID: 1637998855
+    locked: 0
+  - name: Foreground
+    uniqueID: 501440889
     locked: 0
