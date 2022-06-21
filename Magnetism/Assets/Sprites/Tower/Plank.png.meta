@@ -89,7 +89,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures:
-    - texture: {fileID: 2800000, guid: b90fef19a18b0114ba4cd268dd496b67, type: 3}
+    - texture: {fileID: 2800000, guid: aa10445e00c8ece4187c54a4ad1dd7a5, type: 3}
       name: _NormalMap
     nameFileIdTable: {}
   spritePackingTag: 
