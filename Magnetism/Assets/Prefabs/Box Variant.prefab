@@ -23,17 +23,21 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.border.z
       value: 4.44
       objectReference: {fileID: 0}
+    - target: {fileID: 3919442236608564468, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.1799998
+      value: 2.9000256
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.52
+      value: -2.2037802
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalPosition.z
@@ -45,15 +49,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612328, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -69,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612374, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_Name
-      value: Box2
+      value: Box Variant (4)
       objectReference: {fileID: 0}
     - target: {fileID: 5234520950589612375, guid: 91c2a70a6f2dc5849bfdfcc84ae50a87, type: 3}
       propertyPath: m_Sprite

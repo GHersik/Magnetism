@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8618564336814573287
+--- !u!1001 &8800613414338820724
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -29,11 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1927188634450407324, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.29999995
+      value: -2.798
       objectReference: {fileID: 0}
     - target: {fileID: 1927188634450407324, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9
+      value: -2.87
       objectReference: {fileID: 0}
     - target: {fileID: 1927188634450407324, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -69,11 +69,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1927188634450407325, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
       propertyPath: m_Mass
-      value: 0.5
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1927188635478825681, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
+    - target: {fileID: 3751690334902573422, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751690334902573422, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
       propertyPath: m_ForceMagnitude
-      value: -5
+      value: -80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c950bdcaf5855544b8d07ef5cf2551bb, type: 3}
