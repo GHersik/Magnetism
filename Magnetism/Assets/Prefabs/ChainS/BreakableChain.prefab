@@ -1465,7 +1465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7534137618006663167}
   m_Layer: 0
-  m_Name: LooseChain (1)
+  m_Name: BreakableChain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
