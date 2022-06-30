@@ -20,8 +20,8 @@ public class RubeStart : MonoBehaviour
     {
         if (Input.GetButtonUp("Jump"))
         {
-            //if (Count > 0)
-            //    return;
+            if (Count > 0)
+                return;
 
             Count++;
             ParticleBottom.Play();

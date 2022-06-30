@@ -15,7 +15,10 @@ public class LoopForeground : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        edgeCollider.enabled = false;
-        spriteRenderer.sortingOrder = 5;
+        if (collision.tag.Equals("Magnetic"))
+        {
+            edgeCollider.enabled = false;
+            spriteRenderer.sortingOrder = 5;
+        }
     }
 }

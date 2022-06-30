@@ -13,6 +13,9 @@ public class LoopBackground : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        edgeCollider.enabled = true;
+        if (collision.tag.Equals("Magnetic"))
+        {
+            edgeCollider.enabled = true;
+        }
     }
 }
