@@ -3,28 +3,42 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-public class Ramp2D : MonoBehaviour
+public class Sequence : MonoBehaviour
 {
-    private Light2D light;
+
+    Light2D[] lights;
     [SerializeField] float delay = 3;
     [SerializeField] float lightIntensity = 1;
     [SerializeField] float lightIntensityOff = 0;
 
     void Start()
     {
-        light = GetComponent<Light2D>();
+        lights = GetComponentsInChildren<Light2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.otherCollider.Equals("End"))
+        if (collision.tag.Equals("Magnetic"))
         {
-            return;
+            foreach (var light in lights)
+            {
+                light.intensity = lightIntensity;
+            }
         }
-        StartCoroutine(LightChange());
     }
 
-    IEnumerator LightChange()
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag.Equals("Magnetic"))
+        {
+            foreach (var light in lights)
+            {
+                StartCoroutine(LightChange(light));
+            }
+        }
+    }
+
+    IEnumerator LightChange(Light2D light)
     {
         float timeElapsed = 0;
         while (timeElapsed < delay)
