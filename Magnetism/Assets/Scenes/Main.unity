@@ -604,7 +604,7 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.05452764, y: -3.8962936}
+  - {x: 0.026856184, y: -3.4237912}
   - {x: -0.30728754, y: 7.561571}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -1266,7 +1266,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03, y: 0}
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.045061797, y: -3.8978243}
@@ -2305,8 +2305,9 @@ EdgeCollider2D:
   m_Offset: {x: -3.1, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.42924947, y: -3.86446}
-  - {x: -0.43667617, y: 3.8943481}
+  - {x: -0.42924953, y: -3.86446}
+  - {x: -0.4366567, y: 3.87352}
+  - {x: -0.43667626, y: 3.8943481}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -2962,7 +2963,7 @@ HingeJoint2D:
   serializedVersion: 4
   m_EnableCollision: 1
   m_ConnectedRigidBody: {fileID: 296706657}
-  m_BreakForce: 11
+  m_BreakForce: 10
   m_BreakTorque: 7
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.00000037352243, y: 4.17}
@@ -3131,7 +3132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571623428}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.055, y: -53.414997, z: 0}
+  m_LocalPosition: {x: -2.0149999, y: -53.414997, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3166,20 +3167,27 @@ EdgeCollider2D:
   - {x: -4.3921075, y: 1.3218994}
   - {x: -4.303401, y: 1.4676399}
   - {x: -4.173934, y: 1.5905304}
-  - {x: -3.9818535, y: 1.6445465}
-  - {x: -3.766935, y: 1.6506882}
-  - {x: -3.576321, y: 1.6014595}
-  - {x: -3.383224, y: 1.4205666}
-  - {x: -3.1951108, y: 1.2493248}
-  - {x: -2.6455734, y: 0.817749}
-  - {x: -1.9610597, y: 0.4223175}
-  - {x: -1.1498821, y: 0.104496}
-  - {x: -0.39241314, y: 0.044776917}
-  - {x: 0.5177537, y: 0.030605316}
-  - {x: 1.1351234, y: 0.14331055}
-  - {x: 1.8249686, y: 0.37898254}
-  - {x: 2.5233097, y: 0.7618637}
-  - {x: 3.5836968, y: 1.5602608}
+  - {x: -4.017584, y: 1.7249413}
+  - {x: -3.8205328, y: 1.7578812}
+  - {x: -3.4653678, y: 1.9726143}
+  - {x: -3.2709124, y: 1.9402275}
+  - {x: -3.461589, y: 1.6683884}
+  - {x: -3.376311, y: 1.4261742}
+  - {x: -3.2794561, y: 1.1406631}
+  - {x: -3.188869, y: 0.9643135}
+  - {x: -2.9526064, y: 0.66731644}
+  - {x: -2.565129, y: 0.29880142}
+  - {x: -2.137896, y: 0.03358078}
+  - {x: -1.582233, y: -0.23594284}
+  - {x: -0.4362476, y: -0.4397087}
+  - {x: 0.13994312, y: -0.48490906}
+  - {x: 0.7627479, y: -0.4481163}
+  - {x: 1.0592494, y: -0.36846924}
+  - {x: 1.6236478, y: -0.18105316}
+  - {x: 2.2591274, y: 0.08456421}
+  - {x: 2.7989295, y: 0.56178284}
+  - {x: 3.2459526, y: 1.1428604}
+  - {x: 3.4693027, y: 1.4977226}
   - {x: 3.7755854, y: 1.666729}
   - {x: 4.005853, y: 1.6655464}
   - {x: 4.132229, y: 1.5974541}
@@ -3487,7 +3495,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656676771}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9499999, y: -53.414997, z: 0}
+  m_LocalPosition: {x: 1.905, y: -53.414997, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3524,22 +3532,24 @@ EdgeCollider2D:
   - {x: -4.173934, y: 1.5905304}
   - {x: -3.9818535, y: 1.6445465}
   - {x: -3.766935, y: 1.6506882}
-  - {x: -3.576321, y: 1.6014595}
-  - {x: -3.383224, y: 1.4205666}
-  - {x: -3.1951108, y: 1.2493248}
-  - {x: -2.6455734, y: 0.817749}
-  - {x: -1.9610597, y: 0.4223175}
-  - {x: -1.1498821, y: 0.104496}
-  - {x: -0.39241314, y: 0.044776917}
-  - {x: 0.5177537, y: 0.030605316}
-  - {x: 1.1351234, y: 0.14331055}
-  - {x: 1.8249686, y: 0.37898254}
-  - {x: 2.5233097, y: 0.7618637}
-  - {x: 3.5836968, y: 1.5602608}
-  - {x: 3.7755854, y: 1.666729}
-  - {x: 4.005853, y: 1.6655464}
-  - {x: 4.132229, y: 1.5974541}
-  - {x: 4.271892, y: 1.499588}
+  - {x: -3.6206198, y: 1.566021}
+  - {x: -3.4452422, y: 1.4028473}
+  - {x: -3.3188078, y: 1.1777039}
+  - {x: -2.9694054, y: 0.7713814}
+  - {x: -2.3849669, y: 0.13591003}
+  - {x: -1.5868288, y: -0.21773148}
+  - {x: -0.5828285, y: -0.49876022}
+  - {x: 0.43475068, y: -0.50808716}
+  - {x: 1.197769, y: -0.36118317}
+  - {x: 2.0259292, y: -0.044124603}
+  - {x: 2.9260356, y: 0.8334656}
+  - {x: 3.2076802, y: 1.3989029}
+  - {x: 3.3310344, y: 1.5786133}
+  - {x: 3.130345, y: 1.9353981}
+  - {x: 3.6831493, y: 1.847908}
+  - {x: 4.0209365, y: 1.7946548}
+  - {x: 4.1801567, y: 1.7412491}
+  - {x: 4.324803, y: 1.6450806}
   - {x: 4.3922954, y: 1.3049049}
   - {x: 4.4417043, y: 1.1309929}
   - {x: 4.426294, y: 0.94008636}
@@ -4593,7 +4603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7400647399974911917, guid: 6d03220a6b2c1454fa4ff9738cc03111, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.44
+      value: 2.47
       objectReference: {fileID: 0}
     - target: {fileID: 7400647399974911917, guid: 6d03220a6b2c1454fa4ff9738cc03111, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6264,7 +6274,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8861538, y: 1}
+    m_SensorSize: {x: 1.9615384, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6469,7 +6479,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8861538, y: 1}
+    m_SensorSize: {x: 1.9615384, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -8306,7 +8316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398520534}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.61, y: -43.629997, z: 0}
+  m_LocalPosition: {x: -0.655, y: -43.629997, z: 0}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8328,7 +8338,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -3.9}
-  m_ConnectedAnchor: {x: 3.630233, y: 0.5303277}
+  m_ConnectedAnchor: {x: 3.5986676, y: 0.49497408}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -8348,11 +8358,11 @@ FixedJoint2D:
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 1707596927}
-  m_BreakForce: 200
-  m_BreakTorque: 72
+  m_BreakForce: 65
+  m_BreakTorque: 200
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 5.42}
-  m_ConnectedAnchor: {x: 0.0000000230796, y: -5.2799964}
+  m_ConnectedAnchor: {x: 0.000000027013622, y: -6.179996}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!4 &1406718071 stripped
@@ -8562,8 +8572,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -352649429
-  m_SortingLayer: 1
+  m_SortingLayerID: 501440889
+  m_SortingLayer: 4
   m_SortingOrder: 8
   m_Sprite: {fileID: 21300000, guid: 3f267d008c80db44294fd59acbdeaf6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8965,7 +8975,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8861538, y: 1}
+    m_SensorSize: {x: 1.9615384, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -9151,7 +9161,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03, y: 0}
   m_EdgeRadius: 0
   m_Points:
   - {x: 0.05452764, y: -3.8962936}
@@ -9220,7 +9230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551960057}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.024999999, y: -43.575, z: 0}
+  m_LocalPosition: {x: -0.02, y: -43.575, z: 0}
   m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9859,7 +9869,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 7.75}
+  m_Offset: {x: 0, y: 7.8}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10059,11 +10069,11 @@ FixedJoint2D:
   serializedVersion: 4
   m_EnableCollision: 0
   m_ConnectedRigidBody: {fileID: 1398520535}
-  m_BreakForce: 200
-  m_BreakTorque: 72
+  m_BreakForce: 65
+  m_BreakTorque: 200
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: -5.28}
-  m_ConnectedAnchor: {x: -0.000000023691559, y: 5.4199963}
+  m_ConnectedAnchor: {x: -0.000000027625582, y: 6.319996}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!50 &1707596927
@@ -10169,7 +10179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707596925}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.45999998, y: -43.629997, z: 0}
+  m_LocalPosition: {x: 0.505, y: -43.629997, z: 0}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10191,7 +10201,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 3.9}
-  m_ConnectedAnchor: {x: -3.4723988, y: 0.35355282}
+  m_ConnectedAnchor: {x: -3.1882935, y: 0.035355087}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -11737,9 +11747,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.045061797, y: -3.8978243}
+  - {x: -0.012491763, y: -3.3791642}
   - {x: 0.31291994, y: 7.6134505}
-  - {x: 0.302049, y: 7.4487257}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -12359,7 +12368,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.03, y: 0}
   m_EdgeRadius: 0
   m_Points:
   - {x: 0.05452764, y: -3.8962936}
@@ -14127,7 +14136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6919439043593813911, guid: 3ab82bd8a65285f4985a0f1ea29184f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.3249998
+      value: -1.365
       objectReference: {fileID: 0}
     - target: {fileID: 6919439043593813911, guid: 3ab82bd8a65285f4985a0f1ea29184f0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14325,7 +14334,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.05, y: 0}
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.045061797, y: -3.8978243}
@@ -15582,11 +15591,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7400647399974911917, guid: 6d03220a6b2c1454fa4ff9738cc03111, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.405
+      value: -1.38
       objectReference: {fileID: 0}
     - target: {fileID: 7400647399974911917, guid: 6d03220a6b2c1454fa4ff9738cc03111, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.559999
+      value: -12.57
       objectReference: {fileID: 0}
     - target: {fileID: 7400647399974911917, guid: 6d03220a6b2c1454fa4ff9738cc03111, type: 3}
       propertyPath: m_LocalPosition.z

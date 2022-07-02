@@ -20,19 +20,24 @@ public class MagnetismEnd : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (counter < 1 && (colliders[0].IsTouchingLayers(LayerMask.GetMask("Magnetic")) && colliders[1].IsTouchingLayers(LayerMask.GetMask("Magnetic"))))
-        {
-            counter++;
-            timeline.Play();
-            animators[1].SetBool("switchToMidCam", true);
-            StartCoroutine(Wait());
+        StartCoroutine(Check());
 
-        }
     }
 
     IEnumerator Wait()
     {
         yield return new WaitForSeconds(6);
         animators[1].SetBool("switchToOutTowerCam", true);
+    }
+
+    IEnumerator Check()
+    {
+        yield return new WaitForSeconds(4);
+        if ((colliders[0].IsTouchingLayers(LayerMask.GetMask("Magnetic")) && colliders[1].IsTouchingLayers(LayerMask.GetMask("Magnetic"))))
+        {
+            timeline.Play();
+            animators[1].SetBool("switchToMidCam", true);
+            StartCoroutine(Wait());
+        }
     }
 }
