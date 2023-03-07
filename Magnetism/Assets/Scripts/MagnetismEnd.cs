@@ -9,6 +9,7 @@ public class MagnetismEnd : MonoBehaviour
     PlayableDirector timeline;
     Animator[] animators;
     int counter = 0;
+    [SerializeField] float secondToWait = 1;
 
     void Start()
     {
@@ -32,7 +33,7 @@ public class MagnetismEnd : MonoBehaviour
 
     IEnumerator Check()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(secondToWait);
         if ((colliders[0].IsTouchingLayers(LayerMask.GetMask("Magnetic")) && colliders[1].IsTouchingLayers(LayerMask.GetMask("Magnetic"))))
         {
             timeline.Play();
