@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class RubeStart : MonoBehaviour
@@ -10,6 +11,8 @@ public class RubeStart : MonoBehaviour
     [SerializeField] ParticleSystem ParticleTop;
     [SerializeField] ParticleSystem ParticleBottom;
     [SerializeField] float Delay = 0;
+
+    [SerializeField] TextMeshProUGUI textMeshProUGUI;
 
     void Start()
     {
@@ -23,6 +26,7 @@ public class RubeStart : MonoBehaviour
             if (Count > 0)
                 return;
 
+            textMeshProUGUI.alpha = 0;
             Count++;
             ParticleBottom.Play();
             ParticleTop.Play();
